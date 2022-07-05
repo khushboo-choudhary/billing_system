@@ -12,11 +12,11 @@ export default function Sales() {
         </div>
         <div className='box1'>
           <div>Rs.2520 </div>
-          <div>Today</div>
+          <div>This Month</div>
         </div>
         <div className='box1'>
-          <div>Rs.250 </div>
-          <div>Today</div>
+          <div>Rs.2520 </div>
+          <div>This Year</div>
         </div>
       </div>
     </div>

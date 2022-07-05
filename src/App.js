@@ -14,6 +14,7 @@ function App() {
   const[quantity, setQuantity] = useState("");
   const [nameQty ,setNameQty] = useState("");
   const [bill,setBill] = useState([]);
+  
 
   useEffect (()=>{
     getData();
@@ -31,6 +32,12 @@ function App() {
   }
   const handleAdd =()=> {
     const data = {name, price}
+    if(data.name === "" && data.price === ""){
+       alert("item should not empty");
+    }
+    else{
+      alert("Items added Successfully");
+    }
      axios.post("http://localhost:8080/items", data).then((res) =>{
         console.log("dai",res.data);
         getData();
@@ -62,6 +69,8 @@ function App() {
       console.log(err.message);
      })
   }
+
+  
   return (
     <div className='Main_Box'>
       

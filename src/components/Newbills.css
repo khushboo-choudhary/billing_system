@@ -37,3 +37,11 @@
     text-align:  start;
     margin: 5px;
 }
+
+.count{
+    background-color: red;
+    color: white;
+    width: 50%;
+    height: 50%;
+    border-radius: 25%;
+}

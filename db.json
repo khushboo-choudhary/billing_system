@@ -49,6 +49,17 @@
       "name": "Fork",
       "price": "80",
       "id": 10
+    },
+   
+    {
+      "name": "ghee",
+      "price": "89",
+      "id": 11
+    },
+    {
+      "name": "Pen",
+      "price": "34",
+      "id": 12
     }
   ],
   "selected": [
@@ -61,84 +72,20 @@
       "id": 1
     },
     {
-      "nameQty": "",
-      "quantity": "2",
-      "priceVal": {
-        "price": "70"
-      },
-      "id": 2
-    },
-    {
-      "nameQty": "",
-      "quantity": "3",
-      "priceVal": {
-        "price": ""
-      },
-      "id": 3
-    },
-    {
-      "nameQty": "",
-      "quantity": "3",
-      "priceVal": {
-        "price": ""
-      },
-      "id": 4
-    },
-    {
-      "nameQty": "",
-      "quantity": "23",
-      "priceVal": {
-        "price": ""
-      },
-      "id": 5
-    },
-    {
-      "nameQty": "23",
-      "quantity": "1",
-      "priceVal": {
-        "price": "70"
-      },
-      "id": 6
-    },
-    {
-      "nameQty": "",
-      "quantity": "2",
-      "priceVal": {
-        "price": ""
-      },
-      "id": 7
-    },
-    {
-      "nameQty": "2",
-      "quantity": "2",
-      "priceVal": {
-        "price": ""
-      },
-      "id": 8
-    },
-    {
-      "nameQty": "5",
-      "quantity": "5",
-      "priceVal": {
-        "price": ""
-      },
-      "id": 9
-    },
-    {
-      "nameQty": "1",
-      "quantity": "1",
-      "priceVal": {
-        "price": "60"
-      },
-      "id": 10
-    },
-    {
       "nameQty": "2",
       "quantity": "2",
       "priceVal": {
         "price": "80"
       },
-      "id": 11
+      "id": 2
+    },
+    {
+      "nameQty": "1",
+      "quantity": "1",
+      "priceVal": {
+        "price": "34"
+      },
+      "id": 3
     }
   ]
 }
