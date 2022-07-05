@@ -9,33 +9,136 @@
       "name": "Book",
       "price": "40",
       "id": 2
+    },
+    {
+      "name": "scale",
+      "price": "45",
+      "id": 3
+    },
+    {
+      "name": "compass",
+      "price": "23",
+      "id": 4
+    },
+    {
+      "name": "Eraser",
+      "price": "89",
+      "id": 5
+    },
+    {
+      "name": "pencil",
+      "price": "70",
+      "id": 6
+    },
+    {
+      "name": "lunch",
+      "price": "70",
+      "id": 7
+    },
+    {
+      "name": "Mouse",
+      "price": "45",
+      "id": 8
+    },
+    {
+      "name": "Desk",
+      "price": "60",
+      "id": 9
+    },
+    {
+      "name": "Fork",
+      "price": "80",
+      "id": 10
     }
   ],
   "selected": [
     {
-      "quantity": "",
-      "nameQty": "12",
+      "nameQty": "",
+      "quantity": "2",
+      "priceVal": {
+        "price": "70"
+      },
       "id": 1
     },
     {
-      "quantity": "",
-      "nameQty": "12",
+      "nameQty": "",
+      "quantity": "2",
+      "priceVal": {
+        "price": "70"
+      },
       "id": 2
     },
     {
-      "quantity": "",
-      "nameQty": "12",
+      "nameQty": "",
+      "quantity": "3",
+      "priceVal": {
+        "price": ""
+      },
       "id": 3
     },
     {
-      "quantity": "11",
-      "nameQty": "Pen",
+      "nameQty": "",
+      "quantity": "3",
+      "priceVal": {
+        "price": ""
+      },
       "id": 4
     },
     {
-      "quantity": "",
       "nameQty": "",
+      "quantity": "23",
+      "priceVal": {
+        "price": ""
+      },
       "id": 5
+    },
+    {
+      "nameQty": "23",
+      "quantity": "1",
+      "priceVal": {
+        "price": "70"
+      },
+      "id": 6
+    },
+    {
+      "nameQty": "",
+      "quantity": "2",
+      "priceVal": {
+        "price": ""
+      },
+      "id": 7
+    },
+    {
+      "nameQty": "2",
+      "quantity": "2",
+      "priceVal": {
+        "price": ""
+      },
+      "id": 8
+    },
+    {
+      "nameQty": "5",
+      "quantity": "5",
+      "priceVal": {
+        "price": ""
+      },
+      "id": 9
+    },
+    {
+      "nameQty": "1",
+      "quantity": "1",
+      "priceVal": {
+        "price": "60"
+      },
+      "id": 10
+    },
+    {
+      "nameQty": "2",
+      "quantity": "2",
+      "priceVal": {
+        "price": "80"
+      },
+      "id": 11
     }
   ]
 }

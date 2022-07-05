@@ -32,7 +32,7 @@ function App() {
   const handleAdd =()=> {
     const data = {name, price}
      axios.post("http://localhost:8080/items", data).then((res) =>{
-        console.log(res.data);
+        console.log("dai",res.data);
         getData();
      })
      .catch((err)=>{
@@ -41,16 +41,20 @@ function App() {
   }
 
   const handAdd = () => {
+    const priceVal = {price}
     const data = {
+      nameQty,
       quantity,
-      nameQty
+      priceVal
     }
     console.log("data" , data)
     
 
     setBill(data);
-    axios.post("http://localhost:8080/selected", data).then((res) =>{
+    axios.post("http://localhost:8080/selected", data,priceVal).then((res) =>{
         console.log(res.data);
+        console.log("price", priceVal)
+        
         // getData();
       
      })
