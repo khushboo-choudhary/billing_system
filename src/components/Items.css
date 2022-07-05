@@ -1,0 +1,15 @@
+.item{
+    /* border: 2px solid blue; */
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.sold{
+    text-align: start;
+    margin: 5px;
+}
+
+.itemsmain{
+    text-align: start;
+    margin: 10px;
+}

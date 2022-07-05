@@ -1,38 +1,78 @@
+
 .App {
   text-align: center;
+  display: grid;
+  /* border: 2px solid red; */
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 2fr 2fr;
+  grid-gap: 20px;
+  width: 80%;
+  margin: auto;
+  /* margin-left: 30px; */
+  height: 450px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.top{
+  margin: auto;
+  /* border: 2px solid red; */
+  width: 15%;
+  padding: 15px;
+  /* text-align: start; */
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.quantity1{
+  border: none;
+   border-bottom: 1px solid gray;
+   margin: 5px;
+
+}
+select{
+  width: 170px;
+  margin: 5px;
+
+}
+.btn{
+  width: 50px;
+  height: 30px;
+  margin-left: 70px;
+  margin-top: 5px;
+  border: none;
+  background-color: aqua;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.name{
+  margin-bottom: 5px;
+  margin: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main_div{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.App2{
+  /* border: 2px solid darkgreen; */
+  width: 15%;
+  padding: 15px;
+  margin: auto;
+  /* text-align: start; */
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn1{
+  width: 40px;
+  height: 40px;
+  margin-left: 70px;
+  margin-top: 5px;
+  border: none;
+  background-color: aqua;
+  border-radius: 50%;
+  
 }

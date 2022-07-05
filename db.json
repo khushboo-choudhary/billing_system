@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "name": "Pen",
+      "price": "50",
+      "id": 1
+    },
+    {
+      "name": "Book",
+      "price": "40",
+      "id": 2
+    }
+  ],
+  "selected": [
+    {
+      "quantity": "",
+      "nameQty": "12",
+      "id": 1
+    },
+    {
+      "quantity": "",
+      "nameQty": "12",
+      "id": 2
+    },
+    {
+      "quantity": "",
+      "nameQty": "12",
+      "id": 3
+    },
+    {
+      "quantity": "11",
+      "nameQty": "Pen",
+      "id": 4
+    },
+    {
+      "quantity": "",
+      "nameQty": "",
+      "id": 5
+    }
+  ]
+}

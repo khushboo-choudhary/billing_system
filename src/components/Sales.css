@@ -1,0 +1,28 @@
+.sales{
+    /* border: 2px solid orangered; */
+    /* margin: auto; */
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+.salesmain{
+    text-align: start;
+    margin: 10px;
+}
+
+.salesstate{
+    display: flex;
+    margin-top: 30px;
+    
+}
+.box1{
+    margin: auto;
+    height: 130px;
+    width: 130px;
+    text-align: center;
+    border: 2px solid gray;
+}
+
+.box1> div{
+    margin-top: 25px;
+}
